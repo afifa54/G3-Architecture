@@ -99,7 +99,46 @@ main{
     color: #727272;
 }
 
-
+/* Features section start */
+.features-contain {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features_info .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features_info h3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.ten-year-badge{
+    border-radius: 8px;
+background: #FF900E;
+width: 342px;
+color: #fff;
+padding: 40px;
+text-align: center;
+position: relative;
+bottom: 100px;
+}
+.ten-year-badge h2{
+    font-size: 4rem;
+    margin: 0;
+  
+}
+.features-img img {
+    margin-left: 85px;
+    height: 90%;
+}
+.ten-year-badge p{
+    font-size: 1.5rem;
+    
+}
 
 
 
