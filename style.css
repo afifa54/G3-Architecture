@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    background: rgb(255, 144, 14, 0.10);
+    padding: 50px 240px;
+    
+}
+.Logo_title{
+    
+    font-size: 45px;
+    color: #424242;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+    margin: 20px;
+}
+ nav ul li{
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    
+}
+/* banner style start */
+
+.banner_title{
+         font-size: 20px;
+         font-weight: 700;
+         color: #131313;
+}
+.banner_contain{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn_primary{
+   font-size: 20px;
+   font-weight: 700;
+   background-color: #FF900E;
+   border-radius: 5px;
+   color: #fff;
+   border: none;
+   padding: 20px 18px;
+   cursor: pointer
+   ;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Main style start */
+
+main{
+  max-width: 1440px;
+  margin: 70px auto;
+}
+.team-conatiner{
+    display: flex;
+    align-items: center;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.2rem;
+}
+.team-info{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.team-info-title{
+ font-size: 2.8rem;
+}
+.team-info-title .quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+.team-info-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
+
+}
+
+.text-light-gray{
+    color: #727272;
+}
+
+
+
+
+
+
+
+
+ /* Mobile responsive  */
+ @media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+   
+
+    nav,
+    .team-conatiner{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .team-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+ }
+ /* Medium devices */
+
+ @media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+    nav,
+  
+    .team-conatiner
+    {
+        flex-direction: column;
+    }
+    
+
+   
+}
+
+
